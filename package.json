@@ -1,0 +1,28 @@
+{
+  "name": "flux-POC",
+  "version": "0.0.0",
+  "description": "basic flux poc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify src/js/app.js -o bundle.js",
+    "jsx": "jsx --watch src/js/components/ src/js/templates"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssangireddy-nisum-com/flux-POC.git"
+  },
+  "author": "swathi reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssangireddy-nisum-com/flux-POC/issues"
+  },
+  "homepage": "https://github.com/ssangireddy-nisum-com/flux-POC",
+  "dependencies": {
+    "flux": "^2.1.1",
+    "express": "^4.13.3",
+    "browserify": "^11.0.1",
+    "react": "^0.13.3",
+    "key-mirror": "^1.0.0"
+  }
+}
