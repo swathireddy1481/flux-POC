@@ -7,3 +7,7 @@ Steps to run
 	3.npm run browserify
 		->Creates bundle.js file
 	4.node server.js
+
+Note: If u don't have the react tools installed in globally..
+	use this command
+	->npm install -g react-tools
